@@ -192,6 +192,7 @@
    * Navmenu Scrollspy
    */
   let navmenulinks = document.querySelectorAll('.navmenu a');
+  
 
   function navmenuScrollspy() {
     navmenulinks.forEach(navmenulink => {

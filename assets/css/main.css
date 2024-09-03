@@ -186,6 +186,11 @@ h6 {
   line-height: 0px;
 }
 
+/*In case of Yellow logo remove filter*/
+.logo{
+  transform: scale(1.6);
+}
+
 @media (max-width: 1200px) {
   .header .logo {
     order: 1;
@@ -1120,7 +1125,7 @@ section,
 .portfolio .portfolio-content .portfolio-info .preview-link,
 .portfolio .portfolio-content .portfolio-info .details-link {
   position: absolute;
-  left: calc(50% - 40px);
+  left: calc(50% - 10px);
   font-size: 26px;
   top: calc(50% - 14px);
   color: #fff;
