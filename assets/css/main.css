@@ -332,7 +332,9 @@ h6 {
   }
 
    .header .sow-logo {
-    transform: scale(1);
+    transform: scale(0.9);
+    border-radius: 50%; /* Makes the image round */
+    overflow: hidden; /* Ensures the image stays within the round shape */
   }
 
   .header .clg-logo {
