@@ -1322,7 +1322,14 @@ section,
 .team .member .pic {
   overflow: hidden;
   margin-bottom: 50px;
+  opacity: 0.8;
+  transition: 0.3s;
 }
+
+.team .member .pic:hover{
+  opacity: 1;
+}
+
 
 .team .member .member-info {
   background-color: var(--surface-color);
@@ -1336,6 +1343,9 @@ section,
   overflow: hidden;
   transition: 0.5s;
 }
+
+
+
 
 .team .member h4 {
   font-weight: 700;
