@@ -320,7 +320,7 @@ h6 {
   .header {
     padding-top: 11px;
     padding-bottom: 13px;
-    background: rgba(173, 170, 170, 0.336); 
+    background: rgba(252, 252, 252, 0.616); 
     backdrop-filter: blur(13px); /**PRoblem */
     -webkit-backdrop-filter: blur(13px); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
@@ -497,8 +497,10 @@ h6 {
   }
 
   .header .sow-logo {
-    margin-left: 2.1rem;
-    transform: scale(1.1);
+    margin-left: 1.6rem;
+    transform: scale(0.9);
+    border-radius: 50%; /* Makes the image round */
+    overflow: hidden;
   }
   .header .clg-logo {
     
@@ -992,6 +994,7 @@ section,
   cursor: pointer;
   height: 100%;
   border: 0;
+  text-align: center;
   border-bottom: 4px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
@@ -1009,6 +1012,7 @@ section,
 @media (max-width: 575px) {
   .features .nav-link h4 {
     font-size: 16px;
+    text-align: center;
   }
 }
 
@@ -1161,6 +1165,8 @@ section,
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
+  padding: 0 15px;
+
 }
 
 .portfolio .portfolio-content .portfolio-info {
@@ -1324,10 +1330,13 @@ section,
   margin-bottom: 50px;
   opacity: 0.8;
   transition: 0.3s;
+  aspect-ratio: 4/3;
 }
 
 .team .member .pic:hover{
   opacity: 1;
+  aspect-ratio: 3/4;
+
 }
 
 
